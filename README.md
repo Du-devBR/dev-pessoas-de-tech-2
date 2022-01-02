@@ -1,9 +1,9 @@
 
-# Desafio Front End Pessoas de Tech - desafio 2  
-  
-Nossa incrível agência melhorou seus processos, afinal viu que os desenvolvedores que trabalham para ela são talentosos e querem fazer belos projetos. Os clientes começaram a pagar um pouco mais, e exigiram um projeto de melhor qualidade. Afinal, temos que progredir, certo? 
+# Desafio Front End Pessoas de Tech - desafio 2   - Eduardo Ananias da Silva
 
-Tanto que tem projeto novo na casa, e você foi convocado! (tá, não é obrigado a fazer o desafio, mas sabe, a gente avalia de verdade, mandamos aquela listinha maravilhosa para você estudar depois de corrigirmos o seu exercício - win win para todo mundo). [https://www.figma.com/file/x3RWpqO8blDHp2bSKQwsnH/Desafio-Front-end-2---Pessoas-de-Tech?node-id=0%3A1](https://www.figma.com/file/x3RWpqO8blDHp2bSKQwsnH/Desafio-Front-end-2---Pessoas-de-Tech?node-id=0%3A1)  
+Nossa incrível agência melhorou seus processos, afinal viu que os desenvolvedores que trabalham para ela são talentosos e querem fazer belos projetos. Os clientes começaram a pagar um pouco mais, e exigiram um projeto de melhor qualidade. Afinal, temos que progredir, certo?
+
+Tanto que tem projeto novo na casa, e você foi convocado! (tá, não é obrigado a fazer o desafio, mas sabe, a gente avalia de verdade, mandamos aquela listinha maravilhosa para você estudar depois de corrigirmos o seu exercício - win win para todo mundo). [https://www.figma.com/file/x3RWpqO8blDHp2bSKQwsnH/Desafio-Front-end-2---Pessoas-de-Tech?node-id=0%3A1](https://www.figma.com/file/x3RWpqO8blDHp2bSKQwsnH/Desafio-Front-end-2---Pessoas-de-Tech?node-id=0%3A1)
 
 ## Briefing deste segundo projeto
 
@@ -14,48 +14,48 @@ Este segundo cliente tem um olhar mais analítico que o primeiro, e pagou por um
 - O menu do site é fixo, e quando *scrolla* acima de 50px, ele tem a animação de deixar o fundo roxo e a logo em Branco
 - O designer estava sufocado de projetos para fazer, e deixou para você fazer o responsivo. Ah, não pode esconder imagens em telas menores. Ele curtiu como você fez o responsivo do outro projeto, que nem fez esta tela.
 - O botão "Participar" manda para a sessão **Nosso compromisso**. O cliente precisa saber do nosso compromisso antes de sair botando seus preciosos dados no formulário.
-- O designer deixou **BEM EXPRESSO** que a bola atrás da moça precisa estar em outra imagem. Ele quer no futuro animar aquela bolinha por trás da moça. 
+- O designer deixou **BEM EXPRESSO** que a bola atrás da moça precisa estar em outra imagem. Ele quer no futuro animar aquela bolinha por trás da moça.
 - Ali na sessão **Nosso compromisso** tem os ícones. Ele gostaria muito que os ícones fossem estes mesmos, pois demorou 1 dia inteiro de pesquisas para retornar com estes. Melhor agradar a fera.
-- Ali em notícias ele pediu 3. Se der tempo e quiser botar em slider, pode fazer, mas se não, não tem problema. 
+- Ali em notícias ele pediu 3. Se der tempo e quiser botar em slider, pode fazer, mas se não, não tem problema.
 - No anotar a agenda ele pediu que se botasse slider, pois tem muito evento, e ele queria deixar tudo ali. Acho que o designer está um pouco neurótico com este projeto.
 - Ele estava tão inseguro com o projeto que fez até as telas de loading e de resultado da requisição. Ele comentou comigo que se algo der errado neste projeto ele pede demissão. Cara, me ajuda ai, por favor.
-- Ah, o cliente solicitou que o campo de email seja um e-mail válido, e o de telefone tenha uma máscara. Ele reclamou que o povo no site antigo mandava endereço do concorrente ao invés de telefone. 
+- Ah, o cliente solicitou que o campo de email seja um e-mail válido, e o de telefone tenha uma máscara. Ele reclamou que o povo no site antigo mandava endereço do concorrente ao invés de telefone.
 - Bom, ele me falou também que vai testar os hovers, pois teve umas ideias malucas depois que voltou do Taj Mahal.
 
 O cliente está tão satisfeito que pagaria aquele bônus para gente, Logo a gente repassaria algo pra ti. **#vemBonus!**
-  
-## FAQ  
-**1) Para quem é indicado este desafio?**  
+
+## FAQ
+**1) Para quem é indicado este desafio?**
 Este desafio é indicado para qualquer desenvolvedor que queira ser avaliado com critérios sólidos de frontend. No site [Pessoas de tech desafio 1](http://pessoas-tech-desafio-1.surge.sh/) listamos todos os resultados obtidos, e temos aqui um documento comprovando que a gente realmente avalia todos os projetos que vem para a gente.
-  
-**2) Tem prazo para entregar este desafio?**  
+
+**2) Tem prazo para entregar este desafio?**
 Este será um projeto de longa duração, com prazo de encerramento em 1 de julho de 2022. Logo, você tem 6 meses para me entregar.
-  
-**3) Quem vai avaliar o meu projeto?**  
+
+**3) Quem vai avaliar o meu projeto?**
 Eu, Mateus Ávila Isidoro. Devo chamar mais algumas pessoas para avaliar, e quem foi bem demais no primeiro desafio.
-  
-**4) Posso botar no github como projeto "pinado" para avaliadores olharem meus códigos?**  
-Apesar da gente entender que é um código feito por você, entendemos que ele não deveria ser usado como destaque na sua conta de github. Ele é um exercício simples. Recomendamos deixar sempre uma solução 100% original com destaque. Mas se você quiser deixar lá, pode. mas dai depois de corrigir, tu troca as fotos e deixa mais original. 
-  
-**5) Posso usar algum framework tipo Boostrap, Sass, Stylus, React, Vue, Svelte, Wordpress, Tailwind, Astro, entre muitos outros?**  
+
+**4) Posso botar no github como projeto "pinado" para avaliadores olharem meus códigos?**
+Apesar da gente entender que é um código feito por você, entendemos que ele não deveria ser usado como destaque na sua conta de github. Ele é um exercício simples. Recomendamos deixar sempre uma solução 100% original com destaque. Mas se você quiser deixar lá, pode. mas dai depois de corrigir, tu troca as fotos e deixa mais original.
+
+**5) Posso usar algum framework tipo Boostrap, Sass, Stylus, React, Vue, Svelte, Wordpress, Tailwind, Astro, entre muitos outros?**
 Sim, fique a vontade. Se você usar algum framework, daremos pontos extras, pois o mercado exige que você saiba alguma coisa além do básico.
-  
-**6) O formulário precisa estar funcionando?**  
+
+**6) O formulário precisa estar funcionando?**
 Sim. Diferente da versão 1, a gente desta vez quer ver se você envia os dados certinho. Você pode enviar o seu objeto json para um console.log e fazer com que o formulário funcione de mentirinha. Desde que ele tenha uma tela de loading e do resultado como o designer projetou, tudo certo. Se você for fullstack, pode criar uma rota em qualquer framework que você conhece.
-  
-**7) Pode usar alguma imagem diferente?**  
+
+**7) Pode usar alguma imagem diferente?**
 Apenas na sessão de notícias que o designer liberou a utilização de imagens diferentes. Nas outras, seja fiel ao design proposto.
 
-**8) Eu preciso subir este site numa URL pública?**  
+**8) Eu preciso subir este site numa URL pública?**
 Sim. Há serviços que podem ajudar nisto, como github pages, surge.sh, heroku. E há hospedagens apache bem baratinhas que podem ajudar você a entregar valor. Lembrando que sem este link, o seu projeto não será corrigido.
 
-**9) Eu preciso subir num repositório público?**  
+**9) Eu preciso subir num repositório público?**
 Sim. Pode ser em qualquer serviço git, como github, gitlab ou bitbucket. Só que o repositório precisa ser público. Lembrando que sem este repositório, o seu projeto não será corrigido.
 
-**10) Preciso ter branches além da master (main)?**  
+**10) Preciso ter branches além da master (main)?**
 Não é necessário. Mas se criar branches, avise no seu README.md.
 
-**11) Pode fazer com algum colega, pra estudarmos juntos?**  
+**11) Pode fazer com algum colega, pra estudarmos juntos?**
 Sim. Fiquem a vontade. A avaliação será feita da mesma forma.
 
 ## O que vamos avaliar?
@@ -102,4 +102,4 @@ Se você quer deixar o patrão feliz, faça algo a mais. Dicas de como impressio
 17. **Criou uma API para o projeto**
 18. **Usou AVIF nas fotos**
 
-Bem, aqui é só para quem quer motivação para estudar um pouco mais. 
+Bem, aqui é só para quem quer motivação para estudar um pouco mais.
