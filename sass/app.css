@@ -1,1 +1,78 @@
-@im;
+@-webkit-keyframes flashing_arrowDown {
+  0%, 100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
+@keyframes flashing_arrowDown {
+  0%, 100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
+@-webkit-keyframes flashing_arrowRight {
+  0%, 100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+}
+
+@keyframes flashing_arrowRight {
+  0%, 100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+}
+
+.button_scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+  font-size: 22px;
+  color: #fff;
+  padding: 12px 34px;
+  border: none;
+  border-radius: 12px;
+  background-color: #717CFF;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.button_scroll:hover {
+  background-color: #4654fd;
+}
+
+.button_scroll .arrow_down_custom {
+  color: #37474F;
+  -webkit-animation: flashing_arrowDown 1.5s infinite;
+          animation: flashing_arrowDown 1.5s infinite;
+}
+
+.button_scroll .arrow_right_custom {
+  color: #37474F;
+  -webkit-animation: flashing_arrowRight 1.8s infinite;
+          animation: flashing_arrowRight 1.8s infinite;
+}
