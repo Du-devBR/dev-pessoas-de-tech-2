@@ -1,3 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+.container_commitment {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1148px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 47px;
+  margin: auto;
+}
+
+.container_commitment .card_commitment {
+  background: #fff;
+  padding: 45px 45px 0 45px;
+  height: 351px;
+  border-radius: 15px;
+}
+
+.container_commitment .card_commitment .img_background-blue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 76px;
+  height: 76px;
+  border: none;
+  border-radius: 50%;
+  background-color: #717cff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_commitment .card_commitment .img_background-red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 76px;
+  height: 76px;
+  border: none;
+  border-radius: 50%;
+  background-color: #FF5959;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_commitment .card_commitment .img_background-green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 76px;
+  height: 76px;
+  border: none;
+  border-radius: 50%;
+  background-color: #27AE60;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_commitment .card_commitment h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 37px;
+  color: #37474f;
+  margin: 30px 0 9px 0;
+}
+
+.container_commitment .card_commitment p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #37474f;
+}
+
+.container_newsletter {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1148px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 47px;
+  margin: auto;
+}
+
+.container_newsletter .card_newsletter {
+  background: #fff;
+  height: 406px;
+  border-radius: 15px;
+}
+
+.container_newsletter .card_newsletter .img_newsletter {
+  -webkit-transition: -webkit-clip-path 1s ease-out;
+  transition: -webkit-clip-path 1s ease-out;
+  transition: clip-path 1s ease-out;
+  transition: clip-path 1s ease-out, -webkit-clip-path 1s ease-out;
+}
+
+.container_newsletter .card_newsletter .img_newsletter img {
+  width: 100%;
+  height: 224px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container_newsletter .card_newsletter .img_newsletter:hover {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  opacity: 50%;
+}
+
+.container_newsletter .card_newsletter .date_newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  margin: 28px 24px 15px 24px;
+}
+
+.container_newsletter .card_newsletter .date_newsletter p {
+  color: #656465;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.container_newsletter .card_newsletter h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #656465;
+  margin: 0 24px;
+}
+
 @-webkit-keyframes flashing_arrowDown {
   0%, 100% {
     -webkit-transform: translateY(0px);
@@ -75,4 +225,12 @@
   color: #37474F;
   -webkit-animation: flashing_arrowRight 1.8s infinite;
           animation: flashing_arrowRight 1.8s infinite;
+}
+
+/* Font family ROBOTO */
+/* Estilos gerais */
+html, body, h1, h2, h3, h4, ul, li, a, button {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
