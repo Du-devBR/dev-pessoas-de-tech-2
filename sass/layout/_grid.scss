@@ -1,0 +1,19 @@
+.container_commitment, .container_newsletter{
+  display: grid;
+  max-width: 1148px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+  gap: 47px;
+  margin: auto;
+
+
+}
+
+.container_events {
+
+  display: grid;
+  max-width: 1148px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+  gap: 47px;
+  margin: 0 auto;
+
+}

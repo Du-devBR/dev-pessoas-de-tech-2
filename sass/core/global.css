@@ -1,8 +1,17 @@
 /* Font family ROBOTO */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 /* Estilos gerais */
-html, body, h1, h2, h3, h4, ul, li, a, button {
+html, body, h1, h2, h3, h4, ul, li, a, button, p {
   font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-decoration: none;
+}
+
+body {
+  background-color: #f2f2f2;
 }

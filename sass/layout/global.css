@@ -1,1 +1,19 @@
-/* No CSS */
+.container_commitment, .container_newsletter {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1148px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 47px;
+  margin: auto;
+}
+
+.container_events {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1148px;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 47px;
+  margin: 0 auto;
+}
