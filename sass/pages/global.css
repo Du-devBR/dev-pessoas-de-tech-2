@@ -1,0 +1,128 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 42px 0 86px 0;
+}
+
+.header img {
+  width: 232px;
+  height: 75px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header .menu_nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 32px;
+}
+
+.header .menu_nav ul li {
+  color: #373737;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  position: relative;
+}
+
+.header .menu_nav ul li:hover {
+  color: #717CFF;
+}
+
+.header .menu_nav ul li:hover::before {
+  content: '';
+  position: absolute;
+  border: solid 1px #717CFF;
+  width: 100%;
+  bottom: -4px;
+}
+
+.home {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 32px 0;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+}
+
+.home .home_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.home .home_text h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #2f2f2f;
+}
+
+.home .home_text h1 span {
+  color: #717CFF;
+}
+
+.home .home_text p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #7d7d7d;
+  margin: 44px 0;
+}
+
+.home .home_img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.home .home_img .home_studenteImg {
+  position: absolute;
+  z-index: 3;
+  height: 581px;
+}
+
+.home .home_img .home_studenteImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.home .home_img .img_background {
+  position: relative;
+  width: 1030px;
+  height: 100%;
+  background-image: linear-gradient(45deg, #8471FF, #717CFF);
+  border-radius: 75%;
+  top: 170px;
+  left: 40px;
+  z-index: 2;
+}

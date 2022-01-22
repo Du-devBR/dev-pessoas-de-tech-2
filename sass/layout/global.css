@@ -1,7 +1,14 @@
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .container_commitment, .container_newsletter {
   display: -ms-grid;
   display: grid;
-  max-width: 1148px;
+  max-width: 1180px;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 47px;
@@ -11,7 +18,7 @@
 .container_events {
   display: -ms-grid;
   display: grid;
-  max-width: 1148px;
+  max-width: 1180px;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 47px;

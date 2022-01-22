@@ -1,8 +1,16 @@
+.container {
+
+  max-width: 1180px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
 .container_commitment, .container_newsletter{
   display: grid;
-  max-width: 1148px;
+  max-width: 1180px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
-  gap: 47px;
+  gap: 47px ;
   margin: auto;
 
 
@@ -11,7 +19,7 @@
 .container_events {
 
   display: grid;
-  max-width: 1148px;
+  max-width: 1180px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
   gap: 47px;
   margin: 0 auto;
