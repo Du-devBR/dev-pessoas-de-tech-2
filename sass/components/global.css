@@ -3,27 +3,6 @@
   margin: 68px 0 53px 0;
 }
 
-.commitment .commitment_text {
-  max-width: 949px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.commitment .commitment_text h2 {
-  font-size: 37px;
-  font-weight: bold;
-  line-height: 54px;
-  color: #373737;
-}
-
-.commitment .commitment_text p {
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 38px;
-  color: #7d7d7d;
-  margin: 32px 0 87px 0;
-}
-
 .commitment .card_commitment {
   background: #fff;
   padding: 45px 45px 0 45px;
@@ -331,8 +310,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 262px;
-  gap: 60px;
+  width: 262px;
+  gap: 40px;
   font-size: 22px;
   color: #fff;
   padding: 12px 34px;
@@ -354,7 +333,31 @@
           animation: flashing_arrowDown 1.5s infinite;
 }
 
-.button_scroll .arrow_right_custom {
+.button_signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  gap: 40px;
+  font-size: 22px;
+  color: #fff;
+  padding: 12px 34px;
+  border: none;
+  border-radius: 12px;
+  background-color: #717CFF;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.button_signup:hover {
+  background-color: #4654fd;
+}
+
+.button_signup .arrow_right_custom {
   color: #37474F;
   -webkit-animation: flashing_arrowRight 1.8s infinite;
           animation: flashing_arrowRight 1.8s infinite;

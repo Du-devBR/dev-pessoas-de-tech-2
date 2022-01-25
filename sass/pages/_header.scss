@@ -1,52 +1,50 @@
 .header {
 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 42px 0 86px 0;
-  // background-color: bisque;
+  overflow: hidden;
 
-  img {
 
-    width: 232px;
-    height: 75px;
-    object-fit:contain;
-
-  }
-
-  .menu_nav ul {
+  .header_nav {
 
     display: flex;
-    flex-direction: row;
-    gap: 32px;
+    justify-content: space-between;
+    margin: 42px 0 86px 0;
+    align-items: center;
 
-  li {
 
-      color: #373737;
+    .menu_nav ul {
+
+      display: flex;
+      gap: 32px;
+
+     li {
+
       font-size: 17px;
       font-weight: 500;
-      cursor: pointer;
+      color: #373737;
       transition: 0.6s;
+      cursor: pointer;
       position: relative;
+
 
       &:hover {
 
-        color: #717CFF;
+        color: #717cff;
+        transition: 0.6s;
 
 
         &::before {
 
           content: '';
           position: absolute;
-          border: solid 1px #717CFF;
           width: 100%;
+          height: 2px;
+          background-color: #717cff;
           bottom: -4px;
 
         }
-
       }
-
+     }
     }
   }
-
 }

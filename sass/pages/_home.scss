@@ -1,80 +1,90 @@
-.home {
+.content {
 
-  display: grid;
+  // background-color: beige;
+  display: flex;
+  overflow: hidden;
   width: 100%;
-  height: 100%;
-  grid-template-columns: 1fr 1fr;
-  gap: 72px;
-  justify-content: space-between;
-  padding: 0 0 32px 0;
-  clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
-  // background-color: aqua;
+  height: calc(100vh - 209px);
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
 
-  .home_text {
+
+  .content_home {
 
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-
-
-    h1 {
-
-      font-size: 52px;
-      font-weight: bold;
-      color: #2f2f2f;
-
-      span {
-
-        color: #717CFF;
-      }
-    }
-
-    p {
-
-      font-size: 22px;
-      font-weight: 500;
-      line-height: 38px;
-      color: #7d7d7d;
-      margin: 44px 0;
-
-    }
-  }
-
-  .home_img {
-
-    width: 100%;
-    height: 100%;
+    justify-content: space-between;
+    gap: 60px;
     overflow: hidden;
 
 
+    .home_txt {
+
+      display: flex;
+      flex-direction: column;
+      max-width: 646px;
+      z-index: 6;
 
 
-    .home_studenteImg {
+      h1 {
 
-      position: absolute;
-      z-index: 3;
-      height: 581px;
+        font-size: 56px;
+        font-weight: 900;
+        color: #2f2f2f;
 
-      img {
 
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
+        span {
+
+          color: #717cff;
+
+        }
+      }
+
+      p {
+
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 38px;
+        color: #7d7d7d;
+        margin: 44px 0;
       }
 
     }
-    .img_background {
 
+    .home_img {
+
+      overflow: hidden;
       position: relative;
-      width: 1030px;
+      z-index: 10;
+      width: 100%;
       height: 100%;
-      background-image: linear-gradient(45deg, #8471FF, #717CFF );
-      border-radius: 75%;
-      top: 170px;
-      left: 40px;
-      z-index: 2;
 
+      img {
+
+
+        object-fit: contain;
+        position: relative;
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+
+      }
+
+      .background_img {
+
+        background-color: #717cff;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        clip-path: ellipse(97% 80% at 98% 100%);
+        z-index: 2;
+
+
+      }
     }
+
   }
+
+
 }

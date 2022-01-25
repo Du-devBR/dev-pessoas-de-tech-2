@@ -26,8 +26,8 @@
 
   display: flex;
   align-items: center;
-  max-width: 262px;
-  gap: 60px;
+  width: 262px;
+  gap: 40px;
   font-size: 22px;
   color: #fff;
   padding: 12px 34px;
@@ -47,6 +47,28 @@
 
     color: #37474F;
     animation:flashing_arrowDown 1.5s infinite;
+
+  }
+}
+
+.button_signup {
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  font-size: 22px;
+  color: #fff;
+  padding: 12px 34px;
+  border: none;
+  border-radius: 12px;
+  background-color: #717CFF;
+  transition: 0.6s;
+  cursor: pointer;
+
+  &:hover {
+
+    background-color: #4654fd;
 
   }
 
