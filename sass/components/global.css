@@ -362,3 +362,8 @@
   -webkit-animation: flashing_arrowRight 1.8s infinite;
           animation: flashing_arrowRight 1.8s infinite;
 }
+
+.errorsInput {
+  background-color: #ce16162f;
+}
+/*# sourceMappingURL=global.css.map */

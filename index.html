@@ -192,10 +192,10 @@
       <p>Preencha todos os campos para que possamos entrar em contato.</p>
     </div>
     <div class="form_input">
-      <input type="text" placeholder="Nome Completo">
-      <input type="email" placeholder="E-mail">
-      <input type="tel" placeholder="Telefone Celular">
-      <button class="button_signup">Cadastre-se<i class="material-icons arrow_right_custom">arrow_forward</i></button>
+      <input type="text" id="inputName" placeholder="Nome Completo" minlength="5" required>
+      <input type="email" id="inputEmail" placeholder="E-mail" required>
+      <input type="tel" id="inputTel" placeholder="Telefone Celular" required>
+      <button type="submit" class="button_signup" id="btnSubmit" disabled>Cadastre-se<i class="material-icons arrow_right_custom">arrow_forward</i></button>
     </div>
   </form>
   <div class="footer_copy">
@@ -217,5 +217,9 @@
    </div>
   </div>
 </section>
+<script src="./src/index.js"></script>
+<script src="./src/validates.js"></script>
+<script src="./src/spinners.js"></script>
+<script src="./src/animations.js"></script>
 </body>
 </html>
