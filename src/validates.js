@@ -21,6 +21,7 @@ const validateName = () => {
 
 const validateEmail = () => {
 
+    
     if(inputEmailRef.checkValidity()) {
 
         inputEmailRef.classList.remove('errorsInput');
@@ -35,8 +36,16 @@ const validateEmail = () => {
 
 }
 
+const maskTel = () => {
 
-maskPhone
+    tel = inputTelRef.value.replace(/\D/g,"")
+    tel = tel.replace(/^(\d{2})(\d)/g,"($1) $2");
+    tel = tel.replace(/(\d)(\d{4})$/,"$1-$2")
+    inputTelRef.value = tel
+
+}
+
+inputTelRef.addEventListener('keyup', maskTel)
 
 const validateTel = () => {
 
@@ -48,11 +57,11 @@ const validateTel = () => {
     else {
 
         inputTelRef.classList.add('errorsInput');
-        return false
         
     }
 
 }
+
 
 
 const validateForm = () => {
@@ -70,9 +79,6 @@ const enableBtn = () => {
 
 
 
-inputNameRef.addEventListener('keyup', validateName)
-inputEmailRef.addEventListener('keyup', validateEmail)
-inputTelRef.addEventListener('keyup', validateTel)
 
 inputNameRef.addEventListener('keyup', enableBtn)
 inputEmailRef.addEventListener('keyup', enableBtn)

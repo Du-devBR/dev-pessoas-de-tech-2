@@ -72,6 +72,11 @@
 
   }
 
+  &:disabled {
+    opacity: .5;
+    cursor:not-allowed;
+  }
+
   .arrow_right_custom {
 
     color: #37474F;

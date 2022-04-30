@@ -357,6 +357,11 @@
   background-color: #4654fd;
 }
 
+.button_signup:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
 .button_signup .arrow_right_custom {
   color: #37474F;
   -webkit-animation: flashing_arrowRight 1.8s infinite;
